@@ -1,0 +1,27 @@
+{
+  "n": 17379,
+  "train": 12165,
+  "validation": 2607,
+  "test": 2607,
+  "boundaries": {
+    "train_end": "2012-05-27 01:00:00",
+    "validation_start": "2012-05-27 02:00:00",
+    "validation_end": "2012-09-12 16:00:00",
+    "test_start": "2012-09-12 17:00:00"
+  },
+  "selected_by_validation_MAE": "Random forest",
+  "features": [
+    "yr",
+    "mnth",
+    "season",
+    "hr",
+    "weekday",
+    "holiday",
+    "workingday"
+  ],
+  "test_metrics": {
+    "MAE": 63.434,
+    "RMSE": 98.176,
+    "R2": 0.7917
+  }
+}

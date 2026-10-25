@@ -1,0 +1,6 @@
+model,split,MAE,RMSE,R2
+Dummy mean,validation,194.135,253.97,-0.2943
+Linear regression,validation,115.732,143.6,0.5862
+Random forest,validation,59.648,87.588,0.8461
+Gradient boosting,validation,64.369,90.259,0.8365
+Random forest,test,63.434,98.176,0.7917

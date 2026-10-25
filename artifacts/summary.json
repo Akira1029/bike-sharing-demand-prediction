@@ -1,0 +1,56 @@
+{
+  "shap_repetitions": 4,
+  "rows_per_repetition": 24,
+  "source": "train+validation only",
+  "test_diagnostics": "descriptive only; no tuning",
+  "top_features": [
+    {
+      "feature": "hr",
+      "mean": 118.738,
+      "std": 18.04,
+      "min": 107.333,
+      "max": 145.461
+    },
+    {
+      "feature": "yr",
+      "mean": 47.448,
+      "std": 3.903,
+      "min": 44.09,
+      "max": 53.014
+    },
+    {
+      "feature": "season",
+      "mean": 41.364,
+      "std": 6.282,
+      "min": 32.864,
+      "max": 47.043
+    },
+    {
+      "feature": "workingday",
+      "mean": 34.752,
+      "std": 11.867,
+      "min": 22.533,
+      "max": 45.515
+    }
+  ],
+  "period_diagnostics": [
+    {
+      "period": "evening_peak",
+      "n": 439,
+      "mae": 134.837,
+      "bias": 59.55
+    },
+    {
+      "period": "morning_peak",
+      "n": 324,
+      "mae": 71.61,
+      "bias": 5.412
+    },
+    {
+      "period": "other",
+      "n": 1844,
+      "mae": 44.999,
+      "bias": 17.1
+    }
+  ]
+}
